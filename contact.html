@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact HairRestore Clinic - Book Your Appointment Today">
+    <title>Contact Us - HairRestore Clinic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <a href="index.html">HairRestore<span class="logo-accent">Clinic</span></a>
+                    </div>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-dropdown">
+                            <a href="about.html" class="nav-link">Pages <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="doctors.html">Our Team</a></li>
+                                <li><a href="faq.html">FAQ's</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-dropdown">
+                            <a href="services.html" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="services.html">All Services</a></li>
+                                <li><a href="services.html#hair-transplant">Hair Transplant</a></li>
+                                <li><a href="services.html#beard-transplant">Beard Transplant</a></li>
+                                <li><a href="services.html#prp-therapy">PRP Therapy</a></li>
+                                <li><a href="services.html#hair-loss-treatment">Hair Loss Treatment</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-dropdown">
+                            <a href="blog.html" class="nav-link">Blog <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog.html">Latest News</a></li>
+                                <li><a href="blog.html#hair-care">Hair Care Tips</a></li>
+                                <li><a href="blog.html#treatment-guides">Treatment Guides</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html" class="nav-link active">Contact Us</a></li>
+                    </ul>
+                    <div class="nav-actions">
+                        <a href="#" class="nav-icon" aria-label="Search"><i class="fas fa-search"></i></a>
+                        <a href="tel:+01999888777" class="nav-icon" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                        <span class="nav-phone">(+01) 999 888 777</span>
+                        <a href="contact.html" class="btn btn-contact">CONTACT US <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Contact Us</h1>
+            <nav class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Contact Us</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch with Our Team</h2>
+                <p class="section-subtitle">We're here to help you with all your hair restoration needs</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5"></textarea>
+                            <span class="error-message"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Address</h3>
+                            <p>123 Medical Center Drive<br>Suite 500<br>City, State 12345</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+1234567890">+1 (234) 567-8900</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@hairrestoreclinic.com">info@hairrestoreclinic.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Hours</h3>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                    <div class="map-container">
+                        <div class="map-placeholder">
+                            <span>Google Maps Embed</span>
+                            <p>Replace with your Google Maps embed code</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <h3 class="footer-title">HairRestore Clinic</h3>
+                    </div>
+                    <p>Lorem ipsum is dolor sit amet, consectetur adipiscing elit, dolore smod tempor incididunt ut labore et.</p>
+                    <div class="footer-contact-info">
+                        <div class="contact-icon-circle">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <span>Contact Us</span>
+                            <strong>+01 123 456 7890</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Booking</a></li>
+                        <li><a href="faq.html">FAQ's</a></li>
+                        <li><a href="blog.html">Blogs</a></li>
+                        <li><a href="doctors.html">Our Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Our Service</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Hair Transplant</a></li>
+                        <li><a href="services.html">Beard Transplant</a></li>
+                        <li><a href="services.html">PRP Therapy</a></li>
+                        <li><a href="services.html">Hair Loss Treatment</a></li>
+                        <li><a href="services.html">Scalp Treatment</a></li>
+                        <li><a href="services.html">Consultation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Subscribe</h3>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Email Address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe Now</button>
+                    </form>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2024 Design & Developed by <span class="footer-accent">HairRestore Clinic</span></p>
+            </div>
+        </div>
+        <a href="#header" class="scroll-to-top" id="scrollToTop">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
